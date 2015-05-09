@@ -17,7 +17,7 @@ import org.osgi.service.log.LogService;
 *
 *
 *
-/
+*/
 
 @Component(name = "DataFinderComponent")
 @Provides(specifications = SearchInfoItf.class)
@@ -35,12 +35,7 @@ public class DataFinderA implements SearchInfoItf{
 					*
 					*/
 					
-				} catch (MalformedURLException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-	        }
-	    }
+				
 	  return res;
 	}
 	
