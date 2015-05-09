@@ -19,7 +19,7 @@ import org.osgi.service.log.LogService;
 *
 */
 
-@Component(name = "DataFinderComponent")
+@Component(name = "DataFinderAComponent")
 @Provides(specifications = SearchInfoItf.class)
 @Instantiate(name = "DataFinderAComponentInstance")
 public class DataFinderA implements SearchInfoItf{
